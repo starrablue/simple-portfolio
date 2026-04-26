@@ -13,6 +13,11 @@ A clean, minimalist personal portfolio website built with HTML and CSS, featurin
 - CSS3 (Vanilla CSS with CSS Variables)
 - JavaScript (for theme switching)
 
+## Directory Structure
+- `/docs`: Contains the production-ready website files used for GitHub Pages deployment.
+  - `index.html`: Main entry point.
+  - `style.css`: Stylesheet with theme variables.
+
 ## About the Author
 Suthasinee O. is a Data Analyst with interests in:
 - 🎴 Tarot
@@ -25,7 +30,12 @@ To run this project locally:
    ```bash
    git clone https://github.com/starrablue/simple-portfolio.git
    ```
-2. Open `index.html` in your web browser.
+2. Open `docs/index.html` in your web browser.
+
+## Deployment
+This site is deployed using GitHub Pages. The source is configured to serve from the `/docs` folder on the `main` branch.
+
+**URL:** [https://starrablue.github.io/simple-portfolio/](https://starrablue.github.io/simple-portfolio/)
 
 ## License
 This project is open-source and available under the MIT License.
